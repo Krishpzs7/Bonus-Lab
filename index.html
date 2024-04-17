@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Image Threshold Demo</title>
+  <style>
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the float is contained within the wrapper */
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    shape-outside: url('https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png');
+    shape-image-threshold: 0.5;
+    shape-margin: 15px;
+    border-radius: 50%; /* Gives the image rounded corners */
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Transparent Image">
+        <p><B>Dice, those humble yet versatile polyhedral objects, have long been cherished companions in the realm of games, both of chance and strategy. While the iconic six-sided cube is the most familiar, adorned with dots numbering one through six, there exists a cornucopia of dice varieties, each with its own distinct configurations.
+In the intricate dance of randomness, dice wield their power, their sides adorned with markings that hold the promise of uncertainty. Opposite faces, locked in a perennial bond, conspire to always sum up to seven, a testament to the elegant symmetry underlying their design.
+Yet, the world of dice knows no bounds.</p>
+    </div>
+</body>
+</html>
